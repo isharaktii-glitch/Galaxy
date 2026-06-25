@@ -7,11 +7,11 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="text">
+    <html lang="en">
       <head>
         <script src="https://cdn.tailwindcss.com"></script>
       </head>
-      <body class="bg-slate-900 text-slate-100 min-h-screen font-sans selection:bg-cyan-500 selection:text-slate-900">
+      <body className="bg-slate-900 text-slate-100 min-h-screen font-sans">
         {children}
       </body>
     </html>

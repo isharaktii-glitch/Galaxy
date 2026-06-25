@@ -1,4 +1,4 @@
-import './globals.css';
+
 
 export const metadata = {
   title: 'NextGen 3D Multi-Vendor Marketplace',
